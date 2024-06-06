@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Orbitron:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,bold,italic&subset=latin,latin-ext');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Poppins','Orbitron'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  color: aliceblue;
+}
+:root{
+  ::-webkit-scrollbar {
+    display: none;
+};
+  --clr-text-1 : #2bd1ff;
+  --clr-border-1:  #2bd1ff;
+  --clr-project-1:rgba(17, 25, 40, 0.7);
+  --clr-project-border : rgba(255, 255, 255, 0.125);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','Poppins','Poppins'
+    monospace;
+}
+@keyframes glow {
+  0% {
+      box-shadow: 0 0 0rem var(--clr-border-1);
+  }
+  20% {
+      box-shadow: 0 0 2rem var(--clr-border-1);
+  }
+  40% {
+    box-shadow: 0 0 4rem var(--clr-border-1);
+}
+60% {
+  box-shadow: 0 0 6rem var(--clr-border-1);
+}
+  100% {
+      box-shadow: 0 0 10rem var(--clr-border-1);
+  }
+}
+.bord{
+  
+  animation: glow 3s infinite;
+}
+
+
+.sidebar p{
+  writing-mode: line-through;
+}
+.sidebar_li {
+  display: inline-block;
+  vertical-align: top;
+  transform: translate(0,100%) rotate(-90deg);
+  transform-origin: 0 0;
+  white-space: nowrap;
+}
+.sidebar_li li p:hover{
+  color: var(--clr-text-1);
+  border-bottom: 1px solid var(--clr-border-1);
+}
+.sidebar_li:after {
+    content: "";
+    float: left;
+    margin-top: 100%;
+}
+
+
