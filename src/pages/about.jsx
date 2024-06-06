@@ -43,7 +43,7 @@ export default function About() {
         Untuk itu kami mengajak sahabat untuk melihat dan mencoba hasil project website kami yang ada di halaman ini yaa!
         </p>
       </div>
-      <h1 className="text-4xl font-bold mt-8">
+      <h1 className="text-3xl font-bold mt-8">
        Our Team <span className="text-[#2bd1ff]">Members</span>
       </h1>
 
