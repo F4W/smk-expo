@@ -1,10 +1,10 @@
 import React from 'react';
 import basyar from "../images/basyar.jpg"
 import wahyu from "../images/wahyu.jpg"
-import alya from "../images/alya.jpg"
+import alya from "../images/alya2.jpg"
 import sucita from "../images/sucita.jpg"
 import nubertus from "../images/dika.jpg"
-import naya from "../images/naya.jpg"
+import naya from "../images/naya2.jpg"
 
 const TeamMember = ({ name, role, imageUrl }) => {
   return (

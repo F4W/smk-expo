@@ -32,3 +32,83 @@
     width: 2rem;
     border-radius: 20px 20px 0 0;
 }
+
+.desktop2 {
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #000000;
+
+
+}
+
+.contactus {
+       position: absolute;
+width: 293px;
+height: 147px;
+left: 75px;
+top: 91px;
+
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 56px;
+
+color: #88E3FF;
+}
+
+.h3contact {
+    left: 75px;
+top: 170px;
+
+font-family: 'Almarai';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+position: relative;
+}
+.salam-coding {
+    position: relative;
+    left: -230px;
+    top: 35px;
+    
+}
+.border-table {
+    box-sizing: border-box;
+
+position: absolute;
+width: 650px;
+height: 48px;
+left: 109px;
+top: 407px;
+
+border: 2px solid #88E3FF;
+
+}
+.your-name1 {
+    position: relative;
+    top: 300px;
+    
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    left: 109px;
+    
+    color: #88E3FF;
+    
+}
+.border-table2 {
+    box-sizing: border-box;
+
+position: absolute;
+width: 650px;
+height: 48px;
+left: 109px;
+top: 500px;
+
+border: 2px solid #88E3FF;
+}
